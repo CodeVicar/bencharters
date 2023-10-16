@@ -90,17 +90,17 @@ export default function Example() {
                   <img
                     src="images/paint/wall.jpeg"
                     alt="image 1"
-                    className="h-full w-full object-cover"
+                    className="h-full w-full object-fill"
                   />
                   <img
                     src="images/paint/Ceiling.jpeg"
                     alt="image 2"
-                    className="h-full w-full object-cover"
+                    className="h-full w-full object-fill"
                   />
                   <img
                     src="images/paint/doorpainting.jpeg"
                     alt="image 3"
-                    className="h-full w-full object-cover"
+                    className="h-full w-full object-fill"
                   />
                 </Carousel>
               </div>
@@ -108,7 +108,7 @@ export default function Example() {
               {/* second slide */}
               <div className="w-full shrink-0 grow-0 basis-auto lg:w-6/12 xl:w-6/12">
                 <div className="px-6  md:px-12">
-                  <h2 className="mb-6 pb-2 text-4xl font-bold">
+                  <h2 className="mb-6 my-6 pb-2 text-4xl font-bold">
                     Why is it so great?
                   </h2>
                   <p className="mb-6 pb-2 text-neutral-500 dark:text-neutral-300">
@@ -184,23 +184,23 @@ export default function Example() {
               /> */}
 
                 <Carousel
-                  className="rounded-xl object-cover"
+                  className="rounded-xl object-fill"
                   style={{ height: "500px" }}
                 >
                   <img
                     src="images/paint/restoration.jpeg"
                     alt="image 1"
-                    className="h-full w-full object-cover"
+                    className="h-full w-full object-fill"
                   />
                   <img
                     src="images/paint/cupboard.jpeg"
                     alt="image 2"
-                    className="h-full w-full object-cover"
+                    className="h-full w-full object-fill"
                   />
                   <img
                     src="images/wallpaper/wallpaperimg.jpeg"
                     alt="image 3"
-                    className="h-full w-full object-cover"
+                    className="h-full w-full object-fill"
                   />
                 </Carousel>
               </div>

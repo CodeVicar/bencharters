@@ -76,27 +76,27 @@ export default function Services() {
               <img
                 src="images/wood/wood.jpeg"
                 alt="image 1"
-                className="h-full w-full object-cover"
+                className="h-full w-full object-fill"
               />
               <img
                 src="images/wood/paneling.jpeg"
                 alt="image 2"
-                className="h-full w-full object-cover"
+                className="h-full w-full object-fill"
               />
               <img
                 src="images/wood/Varnishing.jpeg"
                 alt="image 3"
-                className="h-full w-full object-cover"
+                className="h-full w-full object-fill"
               />
               <img
                 src="images/wood/flatfloor.jpeg"
                 alt="image 3"
-                className="h-full w-full object-cover"
+                className="h-full w-full object-fill"
               />
               <img
                 src="images/wood/window.jpeg"
                 alt="image 3"
-                className="h-full w-full object-cover"
+                className="h-full w-full object-fill"
               />
             </Carousel>
           </div>

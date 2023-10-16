@@ -88,17 +88,17 @@ export default function Example() {
                   <img
                     src="images/kitchen/kitchen1.jpeg"
                     alt="image 1"
-                    className="h-full w-full object-cover"
+                    className="h-full w-full object-fill"
                   />
                   <img
                     src="images/kitchen/kitchen2.jpeg"
                     alt="image 2"
-                    className="h-full w-full object-cover"
+                    className="h-full w-full object-fill"
                   />
                   <img
                     src="images/kitchen/kitchen3.jpeg"
                     alt="image 3"
-                    className="h-full w-full object-cover"
+                    className="h-full w-full object-fill"
                   />
                 </Carousel>
               </div>
