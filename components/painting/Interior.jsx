@@ -106,6 +106,7 @@ export default function Example() {
               </div>
 
               {/* second slide */}
+
               <div className="w-full shrink-0 grow-0 basis-auto lg:w-6/12 xl:w-6/12">
                 <div className="px-6  md:px-12">
                   <h2 className="mb-6 my-6 pb-2 text-4xl font-bold">
@@ -141,68 +142,80 @@ export default function Example() {
         {/* Second interiour */}
 
         <section className="my-20 mx-120">
-          <div className="block px-6">
-            <div className="flex flex-wrap items-center">
-              {/* first slide  */}
+          <div className="bg-gray-100">
+            <div className="relative isolate overflow-hidden">
+              <img
+                src="images/paint/paintz.jpeg"
+                alt=""
+                className="absolute inset-0 -z-10 h-full w-full object-cover"
+              />
 
-              <div className="w-full shrink-0 grow-0 basis-auto lg:w-6/12 xl:w-6/12">
-                <div className="px-6 py-12 md:px-12">
-                  <h2 className="mb-6 pb-2 text-4xl font-bold">
-                    Unmatched Excellence{" "}
-                  </h2>
-                  <p className="mb-6 pb-2 text-neutral-500 dark:text-neutral-300">
-                    Experience excellence like never before with our
-                    comprehensive range of services. From restoration to
-                    creative installations, we transform spaces with precision
-                    and dedication."
-                  </p>
+              <div className="relative ">
+                <div className="block ">
+                  <div className="flex flex-wrap  shadow-lg items-center">
+                    {/* first slide  */}
 
-                  <div className="grid gap-x-6 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
-                    {service2.map((feature, index) => (
-                      <div className="mb-6" key={index}>
-                        <div className="flex items-center mb-2">
-                          <CheckIcon className="mr-3 h-6 w-6 text-neutral-900 dark:text-neutral-100" />
-                          <p className="font-bold text-neutral-900 dark:text-neutral-100">
-                            {feature.name}
-                          </p>
-                        </div>
-                        <p className="text-neutral-500 dark:text-neutral-300">
-                          {feature.description}
+                    <div className="w-full shrink-0 bg-gray-900 opacity-80 grow-0 basis-auto lg:w-6/12 xl:w-6/12">
+                      <div className="px-6 py-12 md:px-12">
+                        <h2 className="mb-6 pb-2 text-white text-4xl font-bold">
+                          Unmatched Excellence{" "}
+                        </h2>
+                        <p className="mb-6 pb-2 text-neutral-500 text-white dark:text-neutral-300">
+                          Experience excellence like never before with our
+                          comprehensive range of services. From restoration to
+                          creative installations, we transform spaces with
+                          precision and dedication."
                         </p>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
 
-              {/* second slide  */}
-              <div className="block w-full shrink-0 grow-0 basis-auto lg:flex lg:w-6/12 xl:w-6/12">
-                {/* <img
+                        <div className="grid gap-x-6  md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
+                          {service2.map((feature, index) => (
+                            <div className="mb-6 " key={index}>
+                              <div className="flex items-center mb-2">
+                                <CheckIcon className="mr-3 h-6 w-6 text-neutral-900 dark:text-neutral-100" />
+                                <p className="font-bold text-neutral-900 text-white dark:text-neutral-100">
+                                  {feature.name}
+                                </p>
+                              </div>
+                              <p className="text-neutral-500 text-white dark:text-neutral-300">
+                                {feature.description}
+                              </p>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* second slide  */}
+                    <div className="block w-full shrink-0 grow-0 basis-auto lg:flex lg:w-6/12 xl:w-6/12">
+                      {/* <img
                 src="https://mdbcdn.b-cdn.net/img/new/ecommerce/vertical/012.jpg"
                 alt="Trendy Pants and Shoes"
                 className="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg"
               /> */}
 
-                <Carousel
-                  className="rounded-xl object-fill"
-                  style={{ height: "500px" }}
-                >
-                  <img
-                    src="images/paint/restoration.jpeg"
-                    alt="image 1"
-                    className="h-full w-full object-fill"
-                  />
-                  <img
-                    src="images/paint/cupboard.jpeg"
-                    alt="image 2"
-                    className="h-full w-full object-fill"
-                  />
-                  <img
-                    src="images/wallpaper/wallpaperimg.jpeg"
-                    alt="image 3"
-                    className="h-full w-full object-fill"
-                  />
-                </Carousel>
+                      <Carousel
+                        className="rounded-xl object-fill"
+                        style={{ height: "500px" }}
+                      >
+                        <img
+                          src="images/paint/restoration.jpeg"
+                          alt="image 1"
+                          className="h-full w-full object-fill"
+                        />
+                        <img
+                          src="images/paint/cupboard.jpeg"
+                          alt="image 2"
+                          className="h-full w-full object-fill"
+                        />
+                        <img
+                          src="images/wallpaper/wallpaperimg.jpeg"
+                          alt="image 3"
+                          className="h-full w-full object-fill"
+                        />
+                      </Carousel>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

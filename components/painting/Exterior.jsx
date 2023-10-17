@@ -33,9 +33,9 @@ const features = [
 
 export default function Services() {
   return (
-    <section className="my-20 mx- bg-white">
+    <section className="my-20 mx- bg-white shadow-lg">
       <div className="block px-6">
-        <div className="flex flex-col max-w-4xl justify-center items-center">
+      <div className="flex  px-6 max-w-8 flex-col justify-center items-center">
           <h2 className="mb-6 pb-2 text-4xl font-bold">
             Exterior Painting and Decorating
           </h2>
