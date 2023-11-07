@@ -2,26 +2,58 @@ import React from 'react'
 
 const page = () => {
   return (
-<div class="container my-24 mx-auto md:px-6">
-  <section class="mb-32">
-    <div class="relative overflow-hidden bg-cover bg-no-repeat bg-[50%] bg-[url('https://mdbcdn.b-cdn.net/img/new/textures/full/154.jpg')] h-[500px]"></div>
-    <div class="container mx-auto px-6 md:px-12 xl:px-32">
-      <div class="text-center">
-        <div
-          class="mt-[-170px] block rounded-lg bg-[hsla(0,0%,100%,0.55)] bg-[hsla(0,0%,100%,0.7)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] dark:bg-[hsla(0,0%,5%,0.55)] dark:shadow-black/20 md:py-16 md:px-12">
-          <h1 class="mb-16 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl">
-            The best offer on the market <br /><span class="text-danger dark:text-danger-400">for your business</span>
-          </h1>
-          <a class="mb-2 inline-block rounded bg-danger px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#dc4c64] transition duration-150 ease-in-out hover:bg-danger-600 hover:shadow-[0_8px_9px_-4px_rgba(220,76,100,0.3),0_4px_18px_0_rgba(220,76,100,0.2)] focus:bg-danger-600 focus:shadow-[0_8px_9px_-4px_rgba(220,76,100,0.3),0_4px_18px_0_rgba(220,76,100,0.2)] focus:outline-none focus:ring-0 active:bg-danger-700 active:shadow-[0_8px_9px_-4px_rgba(220,76,100,0.3),0_4px_18px_0_rgba(220,76,100,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(220,76,100,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(220,76,100,0.2),0_4px_18px_0_rgba(220,76,100,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(220,76,100,0.2),0_4px_18px_0_rgba(220,76,100,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(220,76,100,0.2),0_4px_18px_0_rgba(220,76,100,0.1)] md:mr-2 md:mb-0"
-            data-te-ripple-init data-te-ripple-color="light" href="#!" role="button">Get started</a>
-          <a class="inline-block rounded px-12 pt-4 pb-3.5 text-sm font-medium uppercase leading-normal text-danger transition duration-150 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-danger-600 focus:text-danger-600 focus:outline-none focus:ring-0 active:text-danger-700 dark:hover:bg-neutral-700 dark:hover:bg-opacity-40"
-            data-te-ripple-init data-te-ripple-color="light" href="#!" role="button">Learn more</a>
+<div className="relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0">
+      <div className="inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0">
+        <svg
+          className="absolute left-0 hidden h-full text-white transform -translate-x-1/2 lg:block"
+          viewBox="0 0 100 100"
+          fill="currentColor"
+          preserveAspectRatio="none slice"
+        >
+          <path d="M50 0H100L50 100H0L50 0Z" />
+        </svg>
+        <img
+          className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
+          src="images/woodwork.png"
+          alt=""
+        />
+      </div>
+      <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
+        <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
+          <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+            Brand new
+          </p>
+          <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+            Everything you
+            <br className="hidden md:block" />
+            can imagine{' '}
+            <span className="inline-block text-deep-purple-accent-400">
+              is real
+            </span>
+          </h2>
+          <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae. explicabo.
+          </p>
+          <div className="flex items-center">
+            <a
+              href="/"
+              className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+            >
+              Get started
+            </a>
+            <a
+              href="/"
+              aria-label=""
+              className="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-700"
+            >
+              Learn more
+            </a>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-</div>
-  )
+    </div>  )
 }
 
 export default page

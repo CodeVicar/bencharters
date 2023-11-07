@@ -9,25 +9,53 @@ export default function Example() {
         />
 
         <div className="relative ">
-          <div className="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8">
-            <div className="px-6 pb-4 pt-10 sm:pb-32 lg:col-span-7 lg:px-0 lg:pb-56 lg:pt-48 xl:col-span-6 ">
-              <div className="mx-auto max-w-2xl lg:mx-0 px-6">
-                <div className="mt-24 text-4xl font-bold tracking-tight text-white sm:mt-10 sm:text-6xl">
-                  Elevate Your Kitchen with Style
-                </div>
-                <p className="mt-6 text-lg leading-8 text-white">
-                  Transform your kitchen space into a masterpiece with our
-                  Kitchen Renovation services. We bring your dream kitchen to
-                  life at an affordable cost.
+          <div className="relative bg-gray-900 opacity-90">
+            <div className="absolute inset-x-0 bottom-0">
+              <svg
+                viewBox="0 0 224 12"
+                fill="currentColor"
+                className="w-full -mb-1 text-white"
+                preserveAspectRatio="none"
+              >
+                <path d="M0,0 C48.8902582,6.27314026 86.2235915,9.40971039 112,9.40971039 C137.776408,9.40971039 175.109742,6.27314026 224,0 L224,12.0441132 L0,12.0441132 L0,0 Z" />
+              </svg>
+            </div>
+            <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+              <div className="relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center">
+                <h2 className="mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
+                  Transform Your Property
+                  <br className="hidden md:block" />
+                  Across London{" "}
+                  <span className="relative inline-block">
+                    lazy dog{" "}
+                    <div className="w-full h-3 -mt-3 bg-deep-purple-accent-400" />
+                  </span>
+                </h2>
+                <p className="mb-6 text-base font-bold tracking-wide text-white md:text-lg">
+                  Elevate your space, be it commercial or domestic, with our
+                  unrivaled painting solutions. Serving Epping and neighboring
+                  areas.
                 </p>
-                <div className="mt-10 flex items-center gap-x-6">
-                  <a
-                    href="/contact"
-                    className="rounded-md bg-white py-5 px-4 text-sm font-semibold text-black shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+
+                <p className="max-w-md mb-10 text-xs font-bold tracking-wide text-white sm:text-sm sm:mx-auto md:mb-16">
+                  We're dedicated to bringing your vision to life, whether it's
+                  for renovations, new builds, repairs, or maintenance.
+                </p>
+                <a
+                  href="/"
+                  aria-label="Scroll down"
+                  className="flex items-center justify-center w-10 h-10 mx-auto text-white duration-300 transform border border-gray-400 rounded-full hover:text-teal-accent-400 hover:border-teal-accent-400 hover:shadow hover:scale-110"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 12"
+                    fill="currentColor"
                   >
-                    Book An Appointment{" "}
-                  </a>
-                </div>
+                    <path d="M10.293,3.293,6,7.586,1.707,3.293A1,1,0,0,0,.293,4.707l5,5a1,1,0,0,0,1.414,0l5-5a1,1,0,1,0-1.414-1.414Z" />
+                  </svg>
+                </a>
               </div>
             </div>
           </div>
