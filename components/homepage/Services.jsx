@@ -15,6 +15,7 @@ const cards = [
       "Enhance the beauty of your spaces with our expert painting and decorating services. Our skilled team delivers top-notch quality and precision, ensuring that every project is a testament to our commitment to excellence.",
     buttonText: "Learn More",
     icon: PhoneIcon,
+    href:"/painting-and-decorating",
   },
   {
     name: "Wood Work",
@@ -23,6 +24,8 @@ const cards = [
       "Revitalize your interiors with our wood flooring services. Our experts are dedicated to preserving the beauty and integrity of your spaces, from cleaning to repointing, trust us to rejuvenate your floors.",
     buttonText: "Get Started",
     icon: NewspaperIcon,
+    href:"/wood-work-services",
+
   },
 
   {
@@ -32,6 +35,8 @@ const cards = [
       "Transform your kitchen into the heart of your home. Whether you're looking for modern upgrades or restoring historic charm, our team has the expertise to bring your dream kitchen to life.",
     buttonText: "Discover",
     icon: LifebuoyIcon,
+    href:"/kitchen-renovation",
+
   },
   {
     name: "Tiles",
@@ -40,6 +45,8 @@ const cards = [
       "Preserve the beauty and integrity of your spaces with our tiling services. From cleaning to repointing, trust our experts to rejuvenate your building's exterior and interiors.",
     buttonText: "Get Started",
     icon: NewspaperIcon,
+    href:"/tiles-services",
+
   },
 ];
 
@@ -81,7 +88,7 @@ export default function Example() {
                 </h3>
                 <p className="text-gray-900 mb-4">{card.description}</p>
                 <button className="bg-[#000] text-[#fff] px-4 py-2 rounded-md">
-                  <Link href={`/`}>
+                  <Link href={card.href}>
                     <p className=" text-[#fff] px-4 py-2 rounded-md">
                       {card.buttonText}
                     </p>
