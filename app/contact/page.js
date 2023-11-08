@@ -1,100 +1,109 @@
-"use client";
-import EmailSuccessModal from "../../components/modal/EmailSuccessModal";
-import { Oval } from "react-loader-spinner";
-import {
-  BuildingOffice2Icon,
-  EnvelopeIcon,
-  PhoneIcon,
-  BugAntIcon,
-  ChatBubbleLeftRightIcon,
-  ComputerDesktopIcon,
-} from "@heroicons/react/24/outline";
-import { useState } from "react";
-
-export default function ContactUs() {
+export default function Example() {
   return (
-    <section className="relative py-20 md:py-32 overflow-hidden">
-      {/* <img
-        className="absolute top-0 left-0 md:mt-24"
-        src="/./images/brickoffice.jpg"
-        alt=""
-      /> */}
-      {/* <img
-        className="absolute bottom-0 right-0 mb-8 lg:mb-24"
-        src="/./images/brickoffice.jpg"
-        alt=""
-      /> */}
-      <div className="relative container px-4 mx-auto">
-        <div className="max-w-7xl mx-auto">
-          <div className="max-w-2xl text-center mx-auto mb-20">
-            <span className="inline-block py-1 px-3 mb-4 text-xs font-semibold text-orange-900 bg-orange-50 rounded-full">
-              READY TO SUPPORT US
+    <section class="bg-white dark:bg-gray-900">
+      <div class="container px-6 py-12 mx-auto">
+        <div>
+          <p class="font-medium text-blue-500 dark:text-blue-400">Contact us</p>
+
+          <h1 class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">
+            Get in touch
+          </h1>
+
+          <p class="mt-3 text-gray-500 dark:text-gray-400">
+            Our friendly team is always here to chat.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 gap-12 mt-10 md:grid-cols-2 lg:grid-cols-3">
+          <div>
+            <span class="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+                />
+              </svg>
             </span>
-            <h1 className="font-heading text-5xl xs:text-6xl font-bold text-gray-900 mb-4">
-              <span>Let&rsquo;s stay</span>
-              <span className="font-serif italic">connected</span>
-            </h1>
-            <p className="text-xl text-gray-500 font-semibold">
-              Building trust, one brick at a time.
+
+            <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">
+              Email
+            </h2>
+            <p class="mt-2 text-gray-500 dark:text-gray-400">
+              Our friendly team is here to help.
+            </p>
+            <p class="mt-2 text-blue-500 dark:text-blue-400">
+              hello@merakiui.com
             </p>
           </div>
-          <div className="max-w-md lg:max-w-5xl mx-auto">
-            <div className="flex flex-wrap -mx-4">
-              <div className="w-full lg:w-1/2 px-4 order-last lg:order-first">
-                <img
-                  className="h-full w-full max-w-md"
-                  src="images/brickwork.jpeg"
-                  alt=""
+
+          {/* <div>
+            <span class="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
                 />
-              </div>
-              <div className="w-full lg:w-1/2 px-4 mb-12 lg:mb-0">
-                <div className="max-w-md py-6 lg:ml-auto">
-                  <div className="flex mb-12 items-center">
-                    <div className="flex flex-shrink-0 mr-5 sm:mr-8 items-center justify-center p-1 w-16 sm:w-20 h-16 sm:h-20 rounded-full bg-gray-900">
-                      {/* <img
-                        src="saturn-assets/images/contact/icon-phone.svg"
-                        alt=""
-                      /> */}
-                    </div>
-                    <div>
-                      <span className="text-lg text-gray-500">Phone</span>
-                      <span className="block text-lg font-semibold text-gray-900">
-                        +44 7956 579463
-                      </span>
-                    </div>
-                  </div>
-                  <div className="flex mb-12 items-center">
-                    <div className="flex flex-shrink-0 mr-5 sm:mr-8 items-center justify-center p-1 w-16 sm:w-20 h-16 sm:h-20 rounded-full bg-gray-300">
-                      {/* <img
-                        src="saturn-assets/images/contact/icon-email.svg"
-                        alt=""
-                      /> */}
-                    </div>
-                    <div>
-                      <span className="text-lg text-gray-500">Email</span>
-                      <span className="block text-lg font-semibold text-gray-900">
-                        HMBbrickwork@gmail.com
-                      </span>
-                    </div>
-                  </div>
-                  <div className="flex items-center">
-                    <div className="flex flex-shrink-0 mr-5 sm:mr-8 items-center justify-center p-1 w-16 sm:w-20 h-16 sm:h-20 rounded-full bg-black">
-                      <img
-                        className="h-8"
-                        src="saturn-assets/images/contact/icon-location.svg"
-                        alt=""
-                      />
-                    </div>
-                    <div>
-                      <span className="text-lg text-gray-500">Office</span>
-                      <span className="block text-lg font-semibold text-gray-900">
-                        Fulham, London
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+                />
+              </svg>
+            </span>
+
+            <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">
+              Office
+            </h2>
+            <p class="mt-2 text-gray-500 dark:text-gray-400">
+              Come say hello at our office HQ.
+            </p>
+            <p class="mt-2 text-blue-500 dark:text-blue-400">
+              100 Smith Street Collingwood VIC 3066 AU
+            </p>
+          </div> */}
+
+          <div>
+            <span class="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                />
+              </svg>
+            </span>
+
+            <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">
+              Phone
+            </h2>
+            <p class="mt-2 text-gray-500 dark:text-gray-400">
+              Mon-Fri from 8am to 5pm.
+            </p>
+            <p class="mt-2 text-blue-500 dark:text-blue-400">
+            +447859820088            </p>
           </div>
         </div>
       </div>

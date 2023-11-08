@@ -1,10 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
+import { PhoneIcon } from "@heroicons/react/24/outline";
 
 export default function Example() {
   return (
     <div className="relative bg-[#000]">
-    
       <div className="relative h-80 overflow-hidden bg-gray-900 md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2">
         <Image
           className="h-full w-full object-cover"
@@ -53,13 +53,22 @@ export default function Example() {
             partner. Let's bring your vision to life through the art of painting
             and decorating.
           </p>
-          <div className="mt-8">
-            <Link
-              href="./contact"
-              className="inline-flex rounded-md bg-[#fff] px-3.5 py-2.5 text-sm font-semibold text-[#000] shadow-sm "
-            >
-              Contact Bencharters Today{" "}
-            </Link>
+          <div className="mt-10 flex items-center gap-x-6 lg:mt-10 lg:flex-shrink-0">
+            <button className="bg-[#fff] text-[#fff] px-4 py-4 rounded-md">
+              <div className="flex gap-x-4">
+                <dt className="flex-none">
+                  <span className="sr-only">Telephone</span>
+                  <PhoneIcon
+                    className="h-7 w-6 text-gray-900"
+                    aria-hidden="true"
+                  />
+                </dt>
+                <dd>
+                  <a className="text-gray-900" href="tel:+1 (555) 234-5678">
+                  +447859820088                  </a>
+                </dd>
+              </div>
+            </button>
           </div>
         </div>
       </div>

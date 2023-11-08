@@ -6,7 +6,8 @@ import Interior1 from "@/components/painting/Interior1";
 import Exterior from "@/components/painting/Exterior";
 
 import React from "react";
-import { ChevronRightIcon } from "@heroicons/react/20/solid";
+import { ChevronRightIcon, PhoneIcon} from "@heroicons/react/20/solid";
+
 import Link from "next/link";
 import Image from "next/image";
 
@@ -19,7 +20,7 @@ const WebDesignPage = () => {
       <Exterior />
 
       {/* cta section */}
-      <section className="relative bg-[#fff9f1]">
+      <section className="relative bg-[#fff]">
         <div className="relative h-80 overflow-hidden bg-indigo-600 md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2">
           <img
             className="h-full w-full object-cover"
@@ -53,22 +54,30 @@ const WebDesignPage = () => {
         </div>
         <div className="relative mx-auto max-w-7xl py-24 sm:py-32 lg:px-8 lg:py-40">
           <div className="pl-6 pr-6 md:ml-auto md:w-2/3 md:pl-16 lg:w-1/2 lg:pl-24 lg:pr-0 xl:pl-32">
-            <h2 className="text-base font-semibold leading-7 text-indigo-400">
-              Award winning support
+            <h2 className="text-base font-semibold leading-7 text-gray-900">
+              Ready to Transform Your Space?{" "}
             </h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Ready to create a website that stands out and drives results?{" "}
+              Contact Us for a Free Quote Today
             </p>
-            <p className="mt-6 text-base leading-7 text-gray-900">
-              Let's transform your online presence together.
-            </p>
-            <div className="mt-8">
-              <Link
-                href="/contact"
-                className="inline-flex rounded-md bg-[#4f0064] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-black/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-              >
-                Contact Pixel Path today!{" "}
-              </Link>
+
+            <div className="mt-10 flex items-center gap-x-6 lg:mt-10 lg:flex-shrink-0">
+              <button className=" border-solid border-2 border-gray-100 text-[#fff] px-4 py-3 rounded-md">
+                <div className="flex gap-x-4">
+                  <dt className="flex-none">
+                    <span className="sr-only">Telephone</span>
+                    <PhoneIcon
+                      className="h-7 w-6 text-gray-900"
+                      aria-hidden="true"
+                    />
+                  </dt>
+                  <dd>
+                    <a className="text-gray-900" href="tel:+447859820088">
+                      +447859820088{" "}
+                    </a>
+                  </dd>
+                </div>
+              </button>
             </div>
           </div>
         </div>

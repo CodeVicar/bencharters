@@ -7,9 +7,13 @@ import {
   Bars3Icon,
   ChartPieIcon,
   CursorArrowRaysIcon,
-  FingerPrintIcon,
+  FingerPrintIcon,  
   SquaresPlusIcon,
   XMarkIcon,
+  PaintBrushIcon,
+  CheckBadgeIcon,
+  ArrowRightIcon,
+
 } from "@heroicons/react/24/outline";
 import {
   ChevronDownIcon,
@@ -22,14 +26,14 @@ const Services = [
     name: "Painting And Decorating",
     description: "Expert painting & decorating for beautiful spaces.",
     href: "/painting-and-decorating",
-    icon: ChartPieIcon,
+    icon: CheckBadgeIcon,
   },
 
   {
     name: "Wood work services ",
     description: "Revitalize interiors with our wood flooring.",
     href: "/wood-work-services",
-    icon: FingerPrintIcon,
+    icon: CheckBadgeIcon,
   },
   // {
   //   name: "Floor Renovation",
@@ -41,19 +45,19 @@ const Services = [
     name: "Kitchen Renovation",
     description: "Modern upgrades & restorations for dream kitchens.",
     href: "/kitchen-renovation ",
-    icon: ArrowPathIcon,
+    icon: CheckBadgeIcon,
   },
   {
     name: "Tiles",
     description: "Expert tiling services for interiors & exteriors.",
     href: "/tiles-services",
-    icon: ArrowPathIcon,
+    icon: CheckBadgeIcon,
   },
 ];
 
 const callsToAction = [
-  { name: "Watch demo", href: "#", icon: PlayCircleIcon },
-  { name: "Contact sales", href: "#", icon: PhoneIcon },
+  { name: "About Us", href: "#", icon: ArrowRightIcon },
+  { name: "Contact", href: "#", icon: ArrowRightIcon },
 ];
 const company = [
   { name: "About us", href: "#" },
@@ -172,7 +176,7 @@ export default function Example() {
             About
           </a>
           <a
-            href="#"
+            href="/contact"
             className="text-sm font-semibold leading-6 text-gray-900 border-[#daba53]  text-center w-[150px] px-4 py-3  ring-1 ring-[#daba53]/80  hover:ring-[#daba53]/90"
           >
             Contact
@@ -210,11 +214,11 @@ export default function Example() {
             </Transition>
           </Popover> */}
         </Popover.Group>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+        {/* <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
             Log in <span aria-hidden="true">&rarr;</span>
           </a>
-        </div>
+        </div> */}
       </nav>
       <Dialog
         as="div"
@@ -259,7 +263,7 @@ export default function Example() {
                         />
                       </Disclosure.Button>
                       <Disclosure.Panel className="mt-2 space-y-2">
-                        {[...Services, ...callsToAction].map((item) => (
+                        {[...Services,].map((item) => (
                           <Disclosure.Button
                             key={item.name}
                             as="a"
@@ -275,55 +279,28 @@ export default function Example() {
                 </Disclosure>
 
                 <a
-                  href="#"
+                  href="/about"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Features
+                  About
                 </a>
                 <a
-                  href="#"
+                  href="/contact"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Marketplace
+                  Contact
                 </a>
 
-                <Disclosure as="div" className="-mx-3">
-                  {({ open }) => (
-                    <>
-                      <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                        Company
-                        <ChevronDownIcon
-                          className={classNames(
-                            open ? "rotate-180" : "",
-                            "h-5 w-5 flex-none"
-                          )}
-                          aria-hidden="true"
-                        />
-                      </Disclosure.Button>
-                      <Disclosure.Panel className="mt-2 space-y-2">
-                        {company.map((item) => (
-                          <Disclosure.Button
-                            key={item.name}
-                            as="a"
-                            href={item.href}
-                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                          >
-                            {item.name}
-                          </Disclosure.Button>
-                        ))}
-                      </Disclosure.Panel>
-                    </>
-                  )}
-                </Disclosure>
+             
               </div>
-              <div className="py-6">
+              {/* <div className="py-6">
                 <a
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Log in
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </Dialog.Panel>

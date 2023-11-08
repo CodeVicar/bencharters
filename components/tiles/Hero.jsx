@@ -1,3 +1,5 @@
+import { Bars3Icon, XMarkIcon, PhoneIcon } from "@heroicons/react/24/outline";
+
 export default function Example() {
   return (
     <div className="bg-gray-900">
@@ -17,39 +19,37 @@ export default function Example() {
                     src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
                     alt="Your Company"
                   /> */}
-                <div className="hidden sm:mt-32 sm:flex lg:mt-16">
-                  <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-white ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                    Anim aute id magna aliqua ad ad non deserunt sunt.{" "}
-                    <a
-                      href="#"
-                      className="whitespace-nowrap font-semibold text-white"
-                    >
-                      <span className="absolute inset-0" aria-hidden="true" />
-                      Read more <span aria-hidden="true">&rarr;</span>
-                    </a>
-                  </div>
-                </div>
+                <div className="hidden sm:mt-32 sm:flex lg:mt-16"></div>
                 <h1 className="mt-24 text-4xl font-bold tracking-tight text-white sm:mt-10 sm:text-6xl">
-                  Data to enrich your online business
+                  Tiling Services for Interiors & Exteriors{" "}
                 </h1>
                 <p className="mt-6 text-lg leading-8 text-white">
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-                  qui lorem cupidatat commodo. Elit sunt amet fugiat veniam
-                  occaecat fugiat aliqua.
+                  Tiles can transform the look and feel of any space, and our
+                  expert tiling services are ready to make that transformation
+                  happen. Whether it's interior floors, bathroom walls, or
+                  outdoor patios, we provide precision tiling solutions that
+                  combine style and durability.
                 </p>
-                <div className="mt-10 flex items-center gap-x-6">
-                  <a
-                    href="/contact"
-                    className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                  >
-                    Get started
-                  </a>
-                  {/* <a
-                      href="#"
-                      className="text-sm font-semibold leading-6 text-gray-900"
-                    >
-                      Learn more <span aria-hidden="true">→</span>
-                    </a> */}
+                <div className="mt-10 flex items-center gap-x-6 lg:mt-10 lg:flex-shrink-0">
+                  <button className="bg-[#fff] text-[#fff] px-4 py-4 rounded-md">
+                    <div className="flex gap-x-4">
+                      <dt className="flex-none">
+                        <span className="sr-only">Telephone</span>
+                        <PhoneIcon
+                          className="h-7 w-6 text-gray-900"
+                          aria-hidden="true"
+                        />
+                      </dt>
+                      <dd>
+                        <a
+                          className="text-gray-900"
+                          href="tel:+1 (555) 234-5678"
+                        >
+                          +447859820088{" "}
+                        </a>
+                      </dd>
+                    </div>
+                  </button>
                 </div>
               </div>
             </div>

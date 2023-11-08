@@ -1,28 +1,27 @@
 const navigation = {
-  solutions: [
-    { name: "Marketing", href: "#" },
-    { name: "Analytics", href: "#" },
-    { name: "Commerce", href: "#" },
-    { name: "Insights", href: "#" },
+  Services: [
+    { name: "Painting and Decorating", href: "/painting-and-decorating" },
+    { name: "Woodwork Service", href: "/wood-work-services" },
+    { name: "Kitchen Renovation", href: "/kitchen-renovation" },
+    { name: "Tiles Service", href: "/tiles-services" },
   ],
-  support: [
-    { name: "Pricing", href: "#" },
-    { name: "Documentation", href: "#" },
-    { name: "Guides", href: "#" },
-    { name: "API Status", href: "#" },
-  ],
-  company: [
+  Links: [
+    { name: "Home", href: "/" },
     { name: "About", href: "#" },
-    { name: "Blog", href: "#" },
-    { name: "Jobs", href: "#" },
-    { name: "Press", href: "#" },
-    { name: "Partners", href: "#" },
+    { name: "Contact", href: "#" },
   ],
-  legal: [
-    { name: "Claim", href: "#" },
-    { name: "Privacy", href: "#" },
-    { name: "Terms", href: "#" },
-  ],
+  // company: [
+  //   { name: "About", href: "#" },
+  //   { name: "Blog", href: "#" },
+  //   { name: "Jobs", href: "#" },
+  //   { name: "Press", href: "#" },
+  //   { name: "Partners", href: "#" },
+  // ],
+  // legal: [
+  //   { name: "Claim", href: "#" },
+  //   { name: "Privacy", href: "#" },
+  //   { name: "Terms", href: "#" },
+  // ],
   social: [
     {
       name: "Facebook",
@@ -95,7 +94,7 @@ export default function Example() {
         Footer
       </h2>
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
-        <div className="xl:grid xl:grid-cols-3 xl:gap-8">
+        <div className="xl:grid xl:grid-cols-3 xl:gap-16">
           <div className="space-y-8">
             <img className="h-7" src="./images/logo.jpeg" alt="Company name" />
             <p className="text-sm leading-6 text-gray-300">
@@ -116,14 +115,14 @@ export default function Example() {
               ))}
             </div>
           </div>
-          <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+          <div className="mt-16 grid grid-cols-1 gap-8 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <h3 className="text-sm font-semibold leading-6 text-white">
-                  Solutions
+                  Our Services 
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
-                  {navigation.solutions.map((item) => (
+                  {navigation.Services.map((item) => (
                     <li key={item.name}>
                       <a
                         href={item.href}
@@ -140,7 +139,7 @@ export default function Example() {
                   Support
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
-                  {navigation.support.map((item) => (
+                  {navigation.Links.map((item) => (
                     <li key={item.name}>
                       <a
                         href={item.href}
@@ -155,7 +154,7 @@ export default function Example() {
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-8">
              
-              <div className="mt-10 md:mt-0">
+              {/* <div className="mt-10 md:mt-0">
                 <h3 className="text-sm font-semibold leading-6 text-white">
                   Legal
                 </h3>
@@ -171,7 +170,7 @@ export default function Example() {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

@@ -1,3 +1,5 @@
+import { Bars3Icon, XMarkIcon, PhoneIcon } from "@heroicons/react/24/outline";
+
 export default function Example() {
   return (
     <div className="bg-gray-900">
@@ -9,7 +11,7 @@ export default function Example() {
         />
 
         <div className="relative ">
-          <div className="relative bg-gray-900 opacity-90">
+          <div className="relative bg-gray-900 opacity-70">
             <div className="absolute inset-x-0 bottom-0">
               <svg
                 viewBox="0 0 224 12"
@@ -21,41 +23,40 @@ export default function Example() {
               </svg>
             </div>
             <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-              <div className="relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center">
+              <div className="flex  flex-col  items-center justify-center relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center">
                 <h2 className="mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
-                  Transform Your Property
+                  Expert Painting & Decorating{" "}
                   <br className="hidden md:block" />
                   Across London{" "}
-                  <span className="relative inline-block">
-                    lazy dog{" "}
-                    <div className="w-full h-3 -mt-3 bg-deep-purple-accent-400" />
-                  </span>
                 </h2>
                 <p className="mb-6 text-base font-bold tracking-wide text-white md:text-lg">
-                  Elevate your space, be it commercial or domestic, with our
-                  unrivaled painting solutions. Serving Epping and neighboring
-                  areas.
+                  Our painting and decorating services are more than just a
+                  fresh coat of paint. We are artists of transformation, turning
+                  your spaces into beautiful works of art.
                 </p>
 
                 <p className="max-w-md mb-10 text-xs font-bold tracking-wide text-white sm:text-sm sm:mx-auto md:mb-16">
-                  We're dedicated to bringing your vision to life, whether it's
-                  for renovations, new builds, repairs, or maintenance.
+                  Let us turn your space into a canvas of creativity and beauty
                 </p>
-                <a
-                  href="/"
-                  aria-label="Scroll down"
-                  className="flex items-center justify-center w-10 h-10 mx-auto text-white duration-300 transform border border-gray-400 rounded-full hover:text-teal-accent-400 hover:border-teal-accent-400 hover:shadow hover:scale-110"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="12"
-                    height="12"
-                    viewBox="0 0 12 12"
-                    fill="currentColor"
-                  >
-                    <path d="M10.293,3.293,6,7.586,1.707,3.293A1,1,0,0,0,.293,4.707l5,5a1,1,0,0,0,1.414,0l5-5a1,1,0,1,0-1.414-1.414Z" />
-                  </svg>
-                </a>
+
+                <div className="">
+                  <button className=" border-solid border-2 border-gray-100 text-[#fff] px-4 py-3 rounded-md">
+                    <div className="flex gap-x-4">
+                      <dt className="flex-none">
+                        <span className="sr-only">Telephone</span>
+                        <PhoneIcon
+                          className="h-7 w-6 text-gray-100"
+                          aria-hidden="true"
+                        />
+                      </dt>
+                      <dd>
+                        <a className="text-gray-100" href="tel:+447859820088">
+                          +447859820088{" "}
+                        </a>
+                      </dd>
+                    </div>
+                  </button>
+                </div>
               </div>
             </div>
           </div>

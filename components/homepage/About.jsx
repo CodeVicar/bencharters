@@ -7,19 +7,15 @@ import {
 
 const cards = [
   {
-    name: "Sales",
-    description:
-      "A really skilled, honest and professional team who deliver superb results on time and in budget.",
+    name: "Preparation",
+    description: "We have a  step-by-step process to keep disruption to the absolute minimum."
   },
   {
-    name: "Technical Support",
-    description:
-      "Quod possimus sit modi rerum exercitationem quaerat atque tenetur ullam.",
-  },
+    name: "Application",
+    description: "Our procedures and equipment are all designed to deliver the perfect finish." },
   {
-    name: "Media Inquiries",
-    description:
-      "Ratione et porro eligendi est sed ratione rerum itaque. Placeat accusantium impedit eum odit.",
+    name: "Finishing",
+    description: "A single room, kitchen or entire house, our attention to detail is second to none."
   },
 ];
 
@@ -62,7 +58,7 @@ const About = () => {
                       <h3 className="font-semibold text-[#29256a]">
                         {card.name}
                       </h3>
-                      <p className="mt-2 text-gray-900">"{card.description}"</p>
+                      <p className="mt-2 text-gray-900">{card.description}</p>
                     </div>
                   </div>
                 ))}
