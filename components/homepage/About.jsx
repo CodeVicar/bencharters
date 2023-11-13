@@ -8,14 +8,18 @@ import {
 const cards = [
   {
     name: "Preparation",
-    description: "We have a  step-by-step process to keep disruption to the absolute minimum."
+    description:
+      "We have a  step-by-step process to keep disruption to the absolute minimum.",
   },
   {
     name: "Application",
-    description: "Our procedures and equipment are all designed to deliver the perfect finish." },
+    description:
+      "Our procedures and equipment are all designed to deliver the perfect finish.",
+  },
   {
     name: "Finishing",
-    description: "A single room, kitchen or entire house, our attention to detail is second to none."
+    description:
+      "A single room, kitchen or entire house, our attention to detail is second to none.",
   },
 ];
 
@@ -27,25 +31,32 @@ const About = () => {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
             <p className="text-base font-semibold leading-7 text-[#29256a]">
-              About Us{" "}
+              Welcome to Bencharters
             </p>
             <h3 className="mt-2 text-3xl font-bold tracking-tight text-[#29256a] sm:text-4xl">
-              Our Passion for Excellence
+              Your Premier Painting and Decorating Experts in London
             </h3>
             <div className="mt-10  max-w-xl grid-cols-1 gap-8 text-base leading-7 text-gray-900 lg:max-w-none lg:grid-cols-2">
               <div>
                 <p>
-                  At Bencharters, we are your dedicated team of painting and
-                  decorating experts, bringing life and beauty to your living
-                  spaces. With a rich legacy of creativity and precision, we've
-                  been transforming homes and businesses for ages.
+                  At Bencharters, we've been your dedicated team of painting and
+                  decorating experts, serving both residential and commercial
+                  clients for over 30 years. Our comprehensive services cover
+                  interior and exterior painting, woodwork services, kitchen
+                  renovations, and expert tiling. We pride ourselves on
+                  delivering top-notch craftsmanship in a professional,
+                  courteous, and friendly manner.
                 </p>
                 <p className="mt-8">
-                  Our passion for excellence is the cornerstone of our work. We
-                  believe that every stroke of paint and every detail of design
-                  should reflect our commitment to perfection. From intricate
-                  wallpapering to hardwood flooring, we handle every project
-                  with care and craftsmanship.
+                  Our commitment to excellence is evident in every stroke of
+                  paint and every design detail we handle. Whether it's
+                  intricate wallpapering, hardwood flooring, or revitalizing
+                  your spaces with precision, we're here to make your vision a
+                  reality. Our affordable pricing and a strong legacy of
+                  creativity set us apart. If you have any questions or need a
+                  free quote for our London-based services, feel free to reach
+                  out to us. Your trust in our painting and decorating expertise
+                  is our greatest satisfaction.
                 </p>
               </div>
               <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">

@@ -56,8 +56,8 @@ const Services = [
 ];
 
 const callsToAction = [
-  { name: "About Us", href: "#", icon: ArrowRightIcon },
-  { name: "Contact", href: "#", icon: ArrowRightIcon },
+  { name: "About Us", href: "/about", icon: ArrowRightIcon },
+  { name: "Contact", href: "/contact", icon: ArrowRightIcon },
 ];
 const company = [
   { name: "About us", href: "#" },

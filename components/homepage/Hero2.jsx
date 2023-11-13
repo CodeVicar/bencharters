@@ -14,7 +14,7 @@ export default function Example() {
           className="absolute inset-0 -z-10 h-full w-full object-cover"
         />
 
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+        <div className="mx-auto max-w-2xl px-3 py-32 sm:py-48 lg:py-56">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             {/* <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-white ring-1 ring-white/10 hover:ring-white/90">
               Announcing our next round of funding.{" "}
@@ -56,7 +56,7 @@ export default function Example() {
                     href="/about"
                     className="text-sm font-semibold leading-6 text-gray-900"
                   >
-                    Learn more <span aria-hidden="true">→</span>
+                    Learn more 
                   </a>
                 </button>
               </div>

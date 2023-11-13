@@ -1,7 +1,7 @@
 import { Bars3Icon, XMarkIcon, PhoneIcon } from "@heroicons/react/24/outline";
 export default function Example() {
   return (
-    <div className="bg-gray-900">
+    <div className="bg-gray-900 h-screen">
       <div className="relative isolate overflow-hidden">
         <img
           src="images/woodwork.png"
@@ -19,15 +19,13 @@ export default function Example() {
                   alt="Your Company"
                 /> */}
                 <div className="hidden sm:mt-32 sm:flex lg:mt-16"></div>
-                <h1 className="mt-24 text-4xl font-bold tracking-tight text-white sm:mt-10 sm:text-5xl">
+                <h2 className="mt-24 text-3xl font-bold tracking-tight text-white sm:mt-10 sm:text-4xl">
                   Revitalize Your Interiors with Stunning Wood Flooring{" "}
-                </h1>
+                </h2>
                 <p className="mt-6 text-lg leading-8 text-white">
                   Your floors deserve the best, and our woodwork services are
-                  here to deliver. We specialize in revitalizing interiors with
-                  beautiful wood flooring that adds warmth, character, and
-                  durability to your space.
-                </p>
+                  here to deliver.
+                  </p>
                 <div className="mt-10 flex items-center gap-x-6 lg:mt-10 lg:flex-shrink-0">
                   <button className=" border-solid border-2 border-gray-100 text-[#fff] px-4 py-3 rounded-md">
                     <div className="flex gap-x-4">
