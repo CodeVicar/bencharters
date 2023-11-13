@@ -20,15 +20,15 @@ const features = [
       "Custom design and construction of kitchen and bathroom cabinets to maximize space and functionality.",
   },
   {
-    name: "Sanding",
+    name: "Sanding & Varnishing ",
     description:
       "Professional wood sanding services to prepare surfaces for finishing.",
   },
-  {
-    name: "Varnishing",
-    description:
-      "Application of high-quality varnish to protect and enhance the natural beauty of wood.",
-  },
+  // {
+  //   name: "Varnishing",
+  //   description:
+  //     "Application of high-quality varnish to protect and enhance the natural beauty of wood.",
+  // },
   {
     name: "Wood Restoration",
     description:
@@ -44,13 +44,13 @@ const features = [
     description:
       "Removal of old windows and installation of new, energy-efficient windows to enhance comfort and curb appeal.",
   },
+  // {
+  //   name: "Skirting Board Installation",
+  //   description:
+  //     "Precision installation of skirting boards to enhance the aesthetics of interior spaces.",
+  // },
   {
-    name: "Skirting Board Installation",
-    description:
-      "Precision installation of skirting boards to enhance the aesthetics of interior spaces.",
-  },
-  {
-    name: "Wooden Wall Paneling",
+    name: "Wall Paneling",
     description:
       "Installation of wooden wall paneling to create a warm and inviting atmosphere.",
   },

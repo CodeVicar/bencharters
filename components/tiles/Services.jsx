@@ -184,11 +184,11 @@ export default function Example() {
                     alt="image 1"
                     className=" h-full w-full  object-cover"
                   />
-                  <img
+                  {/* <img
                     src="images/tiles/kitchentiles.jpeg"
                     alt="image 2"
                     className=" h-ful w-full object-cover"
-                  />
+                  /> */}
                   <img
                     src="images/tiles/gardentiles.jpeg"
                     alt="image 3"
