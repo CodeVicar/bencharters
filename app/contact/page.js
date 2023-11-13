@@ -40,7 +40,7 @@ export default function Example() {
               Our friendly team is here to help.
             </p>
             <p class="mt-2 text-blue-500 dark:text-blue-400">
-              hello@merakiui.com
+              Ishakbenchater@gmail.com{" "}
             </p>
           </div>
 
@@ -102,8 +102,7 @@ export default function Example() {
             <p class="mt-2 text-gray-500 dark:text-gray-400">
               Mon-Fri from 8am to 5pm.
             </p>
-            <p class="mt-2 text-blue-500 dark:text-blue-400">
-            +447859820088            </p>
+            <p class="mt-2 text-blue-500 dark:text-blue-400">+447859820088 </p>
           </div>
         </div>
       </div>

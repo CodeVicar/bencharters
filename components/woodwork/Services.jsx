@@ -78,11 +78,7 @@ export default function Services() {
                 alt="image 1"
                 className="h-full w-full object-fill"
               />
-              <img
-                src="images/wood/paneling.jpeg"
-                alt="image 2"
-                className="h-full w-full object-fill"
-              />
+          
               <img
                 src="images/wood/Varnishing.jpeg"
                 alt="image 3"
