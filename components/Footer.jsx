@@ -108,8 +108,8 @@ export default function Example() {
           <div className="space-y-8">
             <img className="h-7" src="./images/logo.jpeg" alt="Company name" />
             <p className="text-sm leading-6 text-gray-300">
-              If you’re looking for a local painters and decorators, get in
-              touch! West London Painters offer high-quality painting and
+              If you’re looking for a  London local painters and decorators, get in
+              touch. Benxhater  offer high-quality painting and
               decorating services for both residential and commercial clients.
             </p>
             <div className="flex space-x-6">
