@@ -39,7 +39,7 @@ const service2 = [
   },
   {
     name: "Porch Tiling",
-    description: "Durable and aesthetic tiles for a welcoming porch entrance."
+    description: "Durable and aesthetic tiles for a welcoming porch entrance.",
   },
   {
     name: "Entryway Tiling",
@@ -80,7 +80,7 @@ export default function Example() {
                 className="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg"
               /> */}
 
-                <Carousel className="rounded-xl" style={{ height: "500px" }}>
+                <Carousel className="rounded-xl" style={{ height: "300px" }}>
                   <img
                     src="images/tiles/bathroompic.jpeg"
                     alt="image 1"
@@ -178,26 +178,21 @@ export default function Example() {
                 alt="Trendy Pants and Shoes"
                 className="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg"
               /> */}
-
-                <Carousel
-                  className="rounded-xl object-cover"
-                  style={{ height: "500px" }}
-                >
-              
+                <Carousel className="rounded-xl" style={{ height: "300px" }}>
                   <img
                     src="images/tiles/patio.jpeg"
                     alt="image 1"
-                    className=" h-98 w-full  object-cover"
+                    className=" h-full w-full  object-cover"
                   />
                   <img
                     src="images/tiles/kitchentiles.jpeg"
                     alt="image 2"
-                    className=" h-98 w-full object-cover"
+                    className=" h-ful w-full object-cover"
                   />
                   <img
                     src="images/tiles/gardentiles.jpeg"
                     alt="image 3"
-                    className=" h-98 w-full  object-cover"
+                    className=" h-full w-full  object-cover"
                   />
                 </Carousel>
               </div>
