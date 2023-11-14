@@ -31,7 +31,7 @@ const About = () => {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
             <p className="text-base font-semibold leading-7 text-[#29256a]">
-              Welcome to Bencharters
+              Welcome to Benchaters
             </p>
             <h3 className="mt-2 text-3xl font-bold tracking-tight text-[#29256a] sm:text-4xl">
               Your Premier Painting and Decorating Experts in London
@@ -39,7 +39,7 @@ const About = () => {
             <div className="mt-10  max-w-xl grid-cols-1 gap-8 text-base leading-7 text-gray-900 lg:max-w-none lg:grid-cols-2">
               <div>
                 <p>
-                  At Bencharters, we've been your dedicated team of painting and
+                  At Benchaters, we've been your dedicated team of painting and
                   decorating experts, serving both residential and commercial
                   clients for over 30 years. Our comprehensive services cover
                   interior and exterior painting, woodwork services, kitchen

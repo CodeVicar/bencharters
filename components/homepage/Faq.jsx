@@ -5,9 +5,9 @@ import { MinusSmallIcon, PlusSmallIcon } from "@heroicons/react/24/outline";
 
 const faqs = [
   {
-    question: "What services does Bencharters offer?",
+    question: "What services does Benchaters offer?",
     answer:
-      "Bencharters specializes in a wide range of painting and decorating services, including interior and exterior painting, wallpaper installation, wood flooring, floor renovation, kitchen renovation, and expert tiling. We transform spaces into works of art."
+      "Benchaters specializes in a wide range of painting and decorating services, including interior and exterior painting, wallpaper installation, wood flooring, floor renovation, kitchen renovation, and expert tiling. We transform spaces into works of art."
   },
   {
     question: "How can I request a quote for my project?",
@@ -15,29 +15,29 @@ const faqs = [
       "Requesting a quote is easy. Simply visit our 'Contact Us' page and fill out the form with details about your project. We'll get back to you promptly with a customized quote."
   },
   {
-    question: "What areas does Bencharters serve?",
+    question: "What areas does you serve?",
     answer:
-      "Bencharters proudly serves clients in [Your Service Areas]. We're dedicated to beautifying homes and businesses in these regions."
+      "Benchaters proudly serves clients in [Your Service Areas]. We're dedicated to beautifying homes and businesses in these regions."
   },
   {
-    question: "How experienced is Bencharters in the painting and decorating industry?",
+    question: "How experienced is Benchaters in the painting and decorating industry?",
     answer:
-      "With years of experience in the industry, Bencharters has a proven track record of delivering high-quality painting and decorating services. Our team of skilled professionals is committed to excellence."
+      "With years of experience in the industry, Benchaters has a proven track record of delivering high-quality painting and decorating services. Our team of skilled professionals is committed to excellence."
   },
   {
-    question: "Can Bencharters handle both residential and commercial projects?",
+    question: "Can you handle both residential and commercial projects?",
     answer:
-      "Absolutely! Bencharters caters to both residential and commercial clients. Whether it's a home makeover or a business renovation, we have the expertise to meet your needs."
+      "Absolutely! Benchaters caters to both residential and commercial clients. Whether it's a home makeover or a business renovation, we have the expertise to meet your needs."
   },
   {
-    question: "Is Bencharters insured and licensed?",
+    question: "Are you insured and licensed?",
     answer:
-      "Yes, Bencharters is fully insured and licensed to provide painting and decorating services. You can trust us to deliver top-notch work with peace of mind."
+      "Yes, Benchaters is fully insured and licensed to provide painting and decorating services. You can trust us to deliver top-notch work with peace of mind."
   },
   {
-    question: "What sets Bencharters apart from other painting and decorating services?",
+    question: "What sets Benchaters apart from other painting and decorating services?",
     answer:
-      "Bencharters stands out for its unwavering commitment to artistry and precision. We pay attention to every detail and strive for excellence in every project, making us your trusted partner for transforming spaces."
+      "Benchaters stands out for its unwavering commitment to artistry and precision. We pay attention to every detail and strive for excellence in every project, making us your trusted partner for transforming spaces."
   },
 ];
 
