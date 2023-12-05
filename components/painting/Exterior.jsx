@@ -66,7 +66,7 @@ export default function Services() {
                 src="images/paint/windowpainting.jpeg"
                 alt="image 2"
                 className="h-full w-full object-fill"
-              />
+                />
               <img
                 src="images/paint/exteriorwall.jpeg"
                 alt="image 3"

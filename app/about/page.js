@@ -27,10 +27,8 @@ export default function Example() {
               <div
                 className="absolute left-1/2 top-1/2 -ml-16 -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl"
                 aria-hidden="true"
-              >
-              </div>
+              ></div>
               <figure className="relative isolate">
-            
                 {/* <img
                   src="https://tailwindui.com/img/logos/workcation-logo-white.svg"
                   alt=""
@@ -60,24 +58,17 @@ export default function Example() {
               </h1>
               <div className="max-w-xl">
                 <p className="mt-6">
-                  Our skilled and professionally qualified tradesmen at Ultimate
-                  Décor are there to fulfil your exact decorative requirements
-                  to the highest standards. We’re very proud of the results we
-                  deliver.
+                  BENCHATERS is a family run home improvement enterprise. We
+                  pride ourselves in delivering honest, high end services and
+                  are committed to ensuring that customer satisfaction is at the
+                  centre of our core. No matter how big or small your project we
+                  are here to offer you the best services.
                 </p>
                 <p className="mt-8">
-                  We specialise in spraying kitchen units, most commonly kitchen
-                  cabinet resprays. As well as offering a wide range of colours,
-                  we also provide a colour-matching service to homeowners. We
-                  also carry out UPVC spraying including UPVC windows and doors,
-                  as well as wooden and composite windows & doors and furniture
-                  spray painting services.
-                </p>
-                <p className="mt-8">
-                  When it comes to professional spray painting, our attention to
-                  detail is second to none. Whether it be a single room,
-                  hallway, entire house interior, we will ensure you have no
-                  streaks, blobs or uneven lines.
+                  We specialise in painting and decorating with exceptional
+                  finishing and have a designated team of specialists to cover
+                  other works such as plastering, flooring, tiling and general
+                  handyman services.
                 </p>
               </div>
             </div>
