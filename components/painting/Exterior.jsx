@@ -57,11 +57,7 @@ export default function Services() {
               className="rounded-xl object-cover"
               style={{ height: "500px" }}
             >
-              <img
-                src="images/paint/exteriorwall.jpeg"
-                alt="image 1"
-                className="h-full w-full object-fill"
-              />
+          
               <img
                 src="images/paint/windowpainting.jpeg"
                 alt="image 2"
